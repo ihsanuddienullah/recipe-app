@@ -13,13 +13,8 @@ export default function RootLayout() {
             headerShown: false,
           }}
         >
-          <Stack.Screen name="index" options={{ title: "Home" }} />
-          <Stack.Screen name="recipe" options={{ title: "Recipes" }} />
-          <Stack.Screen name="about" options={{ title: "About Us" }} />
-          <Stack.Screen
-            name="recipe/[recipeId]"
-            options={{ title: "Recipe Details" }}
-          />
+          <Stack.Screen name="(tabs)" options={{ title: "Home" }} />
+          <Stack.Screen name="recipe/[recipeId]" options={{ title: "Recipe Detail" }} />
         </Stack>
       </SafeAreaView>
     </SafeAreaProvider>
