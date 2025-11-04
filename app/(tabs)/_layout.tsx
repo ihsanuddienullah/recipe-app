@@ -10,9 +10,9 @@ const TabLayout = () => {
         tabBarActiveTintColor: "#f4511e",
         tabBarInactiveTintColor: "gray",
         tabBarStyle: {
-          paddingBottom: 0,
+          paddingBottom: 5,
           paddingTop: 5,
-          height: 50,
+          height: 60,
           backgroundColor: "#fff",
         },
         tabBarLabelStyle: { fontSize: 12, fontWeight: "bold" },
