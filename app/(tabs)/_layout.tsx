@@ -1,3 +1,4 @@
+import { COLOR } from "@/constants/color";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { Tabs } from "expo-router";
 import React from "react";
@@ -7,13 +8,13 @@ const TabLayout = () => {
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: "#f4511e",
-        tabBarInactiveTintColor: "gray",
+        tabBarActiveTintColor: COLOR.active,
+        tabBarInactiveTintColor: COLOR.inactive,
         tabBarStyle: {
           paddingBottom: 5,
           paddingTop: 5,
           height: 60,
-          backgroundColor: "#fff",
+          backgroundColor: COLOR.backgroundLight,
         },
         tabBarLabelStyle: { fontSize: 12, fontWeight: "bold" },
       }}
