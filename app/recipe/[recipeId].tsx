@@ -1,4 +1,5 @@
-import { Link, useLocalSearchParams } from 'expo-router';
+import Header from '@/components/Header';
+import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
 import { Text, View } from 'react-native';
 
@@ -7,8 +8,8 @@ const DetailRecipe = () => {
 
   return (
     <View>
+      <Header btnBack />
       <Text>DetailRecipe {recipeId}</Text>
-      <Link href="/">Go to Home Screen</Link>
     </View>
   )
 }
