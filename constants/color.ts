@@ -1,3 +1,6 @@
+// color palette inspiration
+// https://colorhunt.co/palette/1a363640534c677d6ad6bd98
+
 export const COLOR = {
   primary: "#1A3636",
   background: "#D6BD98",
