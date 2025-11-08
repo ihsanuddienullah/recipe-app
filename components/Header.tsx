@@ -25,7 +25,7 @@ const Header = ({ btnBack = false }: HeaderProps) => {
           <Ionicons name="arrow-back" size={24} color={COLOR.active} />
         </TouchableOpacity>
       )}
-      <Text style={styles.title}>Recipe</Text>
+      <Text style={styles.title}>Recipe App</Text>
     </View>
   );
 };
